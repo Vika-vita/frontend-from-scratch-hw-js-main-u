@@ -8,8 +8,8 @@
 let sum=0;
 let number=1;
 while (number<=20) {
-if (number%2 ===0)
+if (number%2===1)
     sum+=number;
     number++;
 }
-console.log("суммы всех нечётных чисел от 1 до 20:"+ sum)
+console.log("суммы всех нечётных чисел от 1 до 20:"+sum)
