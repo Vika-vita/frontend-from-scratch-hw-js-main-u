@@ -15,4 +15,30 @@
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
-function findUniqueElements() {}
+
+const array=[2,4,6,1,8,4,8,1,];
+let unique = new Set(number)
+function findUniqueElements(arr) {
+    for (let i = 0; i < arr.length; i++){
+       if (arr[i]!==arr[i]);{
+
+       }
+
+    }
+}
+console.log(findUniqueElements())
+
+
+
+/*
+    let newarray = new Set (array)
+console.log( Array.from(newarray))
+*/
+
+
+
+/*
+const names = ['Karina', 'Ilona', 'Petr', 'Maks', 'Ilona', 'Maks'];
+const uniqueNames = new Set(names); // создаём коллекцию уникальных значений
+console.log(Array.from(uniqueNames)); // => [ 'Karina', 'Ilona', 'Petr', 'Maks' ]
+// преобразуем в массив*/
