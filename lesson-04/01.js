@@ -21,5 +21,4 @@ function includesElement(array,element) {
     return false;
 }
 
-console.log((includesElement([1, 2, 3, 4], 2)))
-
+console.log((includesElement([1, 2, 3, 4], 3)))

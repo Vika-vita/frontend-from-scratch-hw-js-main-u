@@ -11,5 +11,23 @@
 
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
+//let char =`str`; //удвоить каждый символ
 
-function doubleEachCharacter() {}
+
+
+function doubleEachCharacter(str) {
+return str.split("").reduce((acc,char)=>{
+    return acc += char+ char
+}, [])}
+
+console.log(doubleEachCharacter("str"));
+console.log( doubleEachCharacter("mom"));
+
+//
+// function doubleStringChars(str) {
+//     return str.split('').map(char => char + char).join('');
+// }
+
+// function doubleStringChars(str) {
+//     return Array.from(str, char => char + char).join('');
+// }
