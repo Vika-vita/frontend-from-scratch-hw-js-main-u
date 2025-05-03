@@ -21,7 +21,7 @@ return str.split("").reduce((acc,char)=>{
 }, [])}
 
 console.log(doubleEachCharacter("str"));
-console.log( doubleEachCharacter("mom"));
+// console.log( doubleEachCharacter("mom"));
 
 //
 // function doubleStringChars(str) {
