@@ -14,16 +14,18 @@
 //let char =`str`; //удвоить каждый символ
 
 
-
 function doubleEachCharacter(str) {
-return str.split("").reduce((acc,char)=>{
-    return acc += char+ char
-}, [])}
+    for (let i = 0; i < str.length; i++);
+    if (str.split(""))
+        return Array.from(str, char => char + char).join('');
+}
+console.log(doubleEachCharacter("helo"));
 
-console.log(doubleEachCharacter("str"));
-// console.log( doubleEachCharacter("mom"));
+// function doubleEachCharacter(str) {
+// return str.split("").reduce((acc,char)=>{
+//     return acc += char+ char
+// }, [])}
 
-//
 // function doubleStringChars(str) {
 //     return str.split('').map(char => char + char).join('');
 // }
