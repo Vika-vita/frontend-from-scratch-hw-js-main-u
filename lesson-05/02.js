@@ -32,12 +32,14 @@ console.log(gallery)
 const gallery = {
   'Mona Lisa': 'Leonardo da Vinci',
   'Starry Night': 'Vincent van Gogh',
-  'The Scream': 'Edvard Munch',
-}
+  'The Scream': 'Edvard Munch',}
 
-function updateGallery(gallery, artwork, value) {
+  function updateGallery(gallery, artwork, value) {
   gallery[artwork] = value;
-  return gallery;
-}
+  return gallery;}
+
 
 console.log(updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali'))
+console.log(updateGallery(gallery,'Mona Lisa','Leonardo da Vinci, 1503-1506'))
+console.log(updateGallery(gallery,'Starry Night','Vincent van Gogh'))
+console.log(updateGallery(gallery,'The Scream','Edvard Munch'))
