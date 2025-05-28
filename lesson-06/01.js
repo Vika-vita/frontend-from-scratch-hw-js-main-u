@@ -35,11 +35,10 @@ buttonNext.addEventListener("click",()=>{
       updateImageIndex();
 
 })
-console.log(currentImageIndex)
+
 buttonPrev.addEventListener("click",()=>{
   currentImageIndex= (currentImageIndex -1 +WEB_TECH_IMAGES.length)
       % WEB_TECH_IMAGES.length;
   updateImageIndex();
 
 })
-
